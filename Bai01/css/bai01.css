@@ -1,0 +1,87 @@
+#container{
+    height: 633px;
+    width: 1065px;
+    background-image: linear-gradient(rgb(149, 215, 251), rgb(101, 170, 243));
+    margin: auto;
+}
+header{
+    height: 60px;
+    color: aliceblue;
+    border-bottom: 4px dotted white;
+}
+header #left {
+    float: left;
+    width: 80%;
+}
+ul{
+    float : left;
+}
+table{
+    border-radius: 15px;
+}
+ul li{
+    list-style: none;
+    font-size: 22px;
+    float: left;
+    width: 110px;
+    font-weight: bold;
+}
+header #right{
+    width: 20%;
+    text-align: center;
+    float: left;
+    font-size: 40px;
+    text-shadow:  4px 4px 10px rgb(4, 4, 206);
+    font-weight: bold;
+    padding-top: 5px;
+}
+section{
+    height: 480px;
+    border-bottom:  4px dotted white;
+    
+}
+section #left{
+    margin-left: 10px;
+ 
+    height: 100%;
+    width: 49%;
+    color: aliceblue;
+
+    float: left;
+}
+p{
+    font-size: 18px;
+    margin-right: 20px;
+}
+input[type="text"],textarea ,button{
+   
+    border: 1px solid #ccc;
+    border-radius: 5px; 
+}
+section #left h1{
+    font-size: 29px;
+}
+section #right{
+    float: left;
+    height: 100%;
+    width: 50%;
+    color: blue;
+}
+section #right h1{
+    margin-left: 50px;
+    margin-top: 15px;
+    font-size: 35px;
+    text-shadow: 4px 2px 0.5px blue;
+}
+section #right h2{
+    margin-left: 60px;
+    margin-top: -30px;
+}
+footer{
+   color: white;
+   text-align: center;
+   font-size: 20px;
+    height: 80px;
+    margin-top: 10px;
+}
+

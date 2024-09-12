@@ -1,0 +1,125 @@
+#container{
+    height: 685px;
+    width: 1100px;
+    margin: auto;
+    border: 2px solid blue;
+}
+header{
+    float: left;
+    height: 70px;
+    width: 340px;
+    background-color: rgb(44, 70, 134);
+    padding: 20px 20px;
+}
+nav{
+    float: left;
+    height: 100px;
+    width: 710px;
+    background-color: rgb(44, 70, 134);
+    padding-right: 10px;
+    padding-top: 10px;
+}
+nav ul{
+    list-style: none;
+    color: white;
+    margin-top: 24.5px;
+    margin-left: -40px;
+
+}
+nav ul li{
+    font-size: 20.005px;
+    float: left;
+    background-color:rgb(29, 175, 171);
+    margin-right: 21px;
+    padding: 12px 20px;
+
+}
+#tieude{
+    margin-left: 15px;
+    float: left;
+    color: white;
+    font-size: 38px;
+}
+
+nav form{
+    text-align: right;
+}
+nav input[type="text"],nav input[type="button"]{
+    background-color: rgb(16, 35, 82);
+    color: white;
+    border: 0.5px solid rgb(29, 175, 171);
+    height: 25px;
+}
+
+.digit {
+    display: inline-block;
+    vertical-align: top; /* Điều chỉnh vị trí theo chiều dọc */
+}
+
+.digit-6 {
+    font-size: 40px;
+    vertical-align: baseline; 
+}
+section #left input[type="text"],input[type="button"]{
+    
+    height: 22px;
+}
+table{
+    margin-top: 10px;
+}
+section{
+float: left;
+    height: 470px;
+    width: 700px;
+    padding: 30px 10px;
+}
+#left{
+    float: left;
+    height: 400px;
+    width: 380px;
+    padding-right: 20px;
+}
+#right{
+    float: left;
+    height: 400px;
+    width: 290px;
+    padding-right: 10px;
+}
+h1{
+    font-weight: normal;
+    color: rgb(95, 93, 93);
+}
+#right p,article p{
+    font-weight: normal;
+    font-size: 17px;
+    color: rgb(95, 93, 93);
+}
+hr{
+    border-style: dashed ;
+    border-width: 1.5px;
+}
+#text{
+    color: rgb(241, 48, 48);
+    text-shadow: 2px 2px 2px rgb(9, 166, 114);
+    font-style: italic;
+    font-size: 17px;
+}
+article{
+
+    float: left;
+    height: 400px;
+    width: 320px;
+    background-color: rgb(229, 233, 236);
+    margin: 65px 10px;
+    padding: 0px 20px;
+}
+footer{
+    width: 1100px;
+    height: 19px;
+    background-color:  rgb(44, 70, 134);
+    float: left;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    padding: 13px 0;
+}
